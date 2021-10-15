@@ -1,0 +1,23 @@
+.c-placeholder{
+    background: #5fd49f3d;
+    min-height: 25rem;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c-placeholder-header{
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.c-placeholder-text{
+    cursor: pointer;
+}
+.c-placeholder-text:hover{
+    color: #5fd49f;
+}

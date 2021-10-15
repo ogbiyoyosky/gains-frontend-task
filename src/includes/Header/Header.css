@@ -1,0 +1,8 @@
+.c-bg{
+    background-color: #38d39f !important;
+}
+
+.c-logout{
+    cursor: pointer;
+    font-weight: bold;
+}

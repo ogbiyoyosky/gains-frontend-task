@@ -1,0 +1,22 @@
+.add-email{
+    background: #f0f5f3;
+    box-shadow: 0 0 0.2rem #ccc;
+}
+
+.verified-span{
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #dc3545;
+    color: white;
+    border-radius: .5rem;
+    padding: .2rem .4rem;
+    font-size: 90%;
+}
+.verified-span.danger{
+    background: #dc3545;
+}
+.verified-span.success{
+    background: #5ccd9a;
+}

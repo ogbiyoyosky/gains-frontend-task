@@ -1,0 +1,19 @@
+.custom-table-item{
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    box-shadow: 0 0 0.3rem #e9e9e9;
+}   
+.custom-table-item.success{
+    border-left: 3px solid #5fd49f;
+    background: #5fd49f2e;
+}   
+.custom-table-item.danger{
+    background: #d45f792e;
+    border-left: 3px solid red;
+}   
